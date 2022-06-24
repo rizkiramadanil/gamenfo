@@ -1,0 +1,42 @@
+name: gamenfo
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_launcher_name: ^0.0.1
+  flutter_launcher_icons: ^0.8.1
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter_launcher_name:
+  name: "Gamenfo"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/logo-gamenfo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen-Regular.ttf
